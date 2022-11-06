@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+}
+.photo1{
+    width: 100px; 
+    max-height:100px ;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 500ms;
+    
+}
+.photo{
+     display: flex;
+     overflow-y: hidden;
+     overflow-x: scroll;
+     padding: 20px;
+
+
+}
+.photo1:hover{
+    transform: scale(1.2);
+}
+.photo::-webkit-scrollbar{
+    display:none;
+}
+.p2{ 
+    max-height: 300px;
+
+}
+.row{
+    color: aliceblue;
+    margin-left: auto;
+}
+.banner{
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    object-fit: contain;
+    height: 440px;
+}
+.title{ font-size: 3rem;
+    font-weight:700 ;
+    padding-bottom: 10rem;
+    margin-top: 3rem;
+
+
+}
+
+
+.button{
+    cursor: pointer;
+    color: azure;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 10vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(rgb(59, 52, 52), rgb(66, 76, 66), rgb(52, 52, 58));
+
+
+}
+.button:hover{
+    color: black;
+    background-color: azure;
+    transition: all;
+
+
+}
+.fadebottom{
+    margin-top: 200px;
+    height: 12rem;
+    background-image: linear-gradient(180deg,transparent,rgb(37,37,37),#111);
+}
+.logo{
+    width: 100px;
+    object-fit: contain;
+    height:70px ;
+    max-height: 40px;
+
+}
+.avatar{
+    width: 30px;
+    object-fit: contain;
+}
+    .nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+
+    }
+
+ 
